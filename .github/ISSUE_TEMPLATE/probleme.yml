@@ -1,0 +1,50 @@
+name: Signaler un problème
+description: Quelque chose ne marche pas comme prévu dans Locavia.
+title: "[Problème] "
+labels: ["problème"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci de prendre le temps de signaler ce problème.
+        **N'indiquez aucune donnée personnelle** (nom de locataire, adresse, IBAN…) : cette page est publique.
+        Sans compte GitHub, écrivez plutôt à locavia@sammut.fr, ou passez par « À propos » → « Faire un retour » dans Locavia.
+  - type: textarea
+    id: description
+    attributes:
+      label: Que se passe-t-il ?
+      description: Ce que vous constatez, et ce que vous attendiez à la place.
+    validations:
+      required: true
+  - type: textarea
+    id: etapes
+    attributes:
+      label: Comment le reproduire ?
+      description: Les étapes, dans l'ordre (menu, bouton, saisie…).
+      placeholder: |
+        1. Ouvrir « Paiements »
+        2. …
+  - type: input
+    id: version
+    attributes:
+      label: Version de Locavia
+      description: Indiquée dans « À propos ».
+      placeholder: "0.8.0"
+    validations:
+      required: true
+  - type: dropdown
+    id: systeme
+    attributes:
+      label: Système
+      options:
+        - Windows 11
+        - Windows 10
+        - Linux (Ubuntu, Debian, Zorin…)
+        - Autre
+    validations:
+      required: true
+  - type: textarea
+    id: captures
+    attributes:
+      label: Captures d'écran
+      description: Facultatif. Masquez les noms et les montants avant de les joindre.

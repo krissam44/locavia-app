@@ -1,0 +1,30 @@
+name: Proposer une évolution
+description: Une idée pour rendre Locavia plus utile.
+title: "[Évolution] "
+labels: ["évolution"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Merci pour votre idée. Avant de la proposer, regardez si elle n'est pas déjà dans les demandes : vous pouvez alors l'appuyer d'un 👍.
+        **N'indiquez aucune donnée personnelle** : cette page est publique.
+  - type: textarea
+    id: besoin
+    attributes:
+      label: Votre besoin
+      description: Ce que vous cherchez à faire aujourd'hui, et ce qui vous en empêche ou vous fait perdre du temps.
+    validations:
+      required: true
+  - type: textarea
+    id: idee
+    attributes:
+      label: Ce que vous imaginez
+      description: Facultatif. Comment Locavia pourrait vous aider.
+  - type: dropdown
+    id: location
+    attributes:
+      label: Votre type de location
+      options:
+        - Vide
+        - Meublée
+        - Les deux
