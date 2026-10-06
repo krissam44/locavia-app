@@ -1,5 +1,13 @@
 # Locavia
 
+**Locavia — Gestion locative gratuite pour propriétaires particuliers**
+
+🏠 Windows & Linux · 🇫🇷 Réglementation française · 🔒 Données locales · 🆓 Gratuit · Aucun abonnement · Aucun cloud
+
+Locavia est un logiciel de bureau gratuit pour gérer soi-même ses locations immobilières : biens, locataires, baux, loyers, quittances, relances, états des lieux, charges, dépôt de garantie et déclaration des revenus.
+
+Aucun compte à créer. Aucune donnée stockée en ligne.
+
 **Gestion locative pour particulier.** Loyers, quittances, relances, révision IRL, régularisation des charges, états des lieux, dépôt de garantie et déclaration de revenus, sans abonnement ni cloud.
 
 Locavia est une application de bureau gratuite pour **Windows et Linux**. Vos données restent sur votre ordinateur.
@@ -56,4 +64,4 @@ La LMNP au réel (amortissements, liasse fiscale), les SCI à l'impôt sur les s
 
 ## Avertissement
 
-Locavia applique la loi n° 89-462 du 6 juillet 1989 et ses décrets, ainsi que les barèmes fiscaux des revenus 2025. Il ne remplace ni un conseil juridique ni un conseil fiscal : vérifiez les montants avant de déclarer.
+Locavia intègre les règles et modèles applicables aux locations concernées par la réglementation française. Les informations réglementaires et fiscales sont susceptibles d'évoluer. Locavia ne constitue ni un conseil juridique ni un conseil fiscal ; il appartient à l'utilisateur de vérifier les dispositions applicables à sa situation.
